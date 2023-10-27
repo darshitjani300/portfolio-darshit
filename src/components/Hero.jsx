@@ -4,7 +4,7 @@ import { FiGithub } from "react-icons/fi";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col lg:flex-row-reverse lg:items-start lg:justify-around lg:px-5 lg:py-20 xl:px-40 items-center justify-center text-center lg:text-start px-5">
+    <section className="flex flex-col mt-20 lg:flex-row-reverse lg:items-start lg:justify-around lg:px-5 lg:py-20 xl:px-40 items-center justify-center text-center lg:text-start px-5 xl:mt-32">
       <div className="h-[200px] w-[200px] lg:h-[320px] lg:w-[320px] my-5">
         <img
           src="images/photo.png"
@@ -37,7 +37,7 @@ const Hero = () => {
             Tech Stack{" "}
           </h1>
           <ul className="flex flex-col sm:flex-row items-center justify-center pb-5 gap-5">
-            <div className="flex gap-6">
+            <div className="flex items-center justify-center gap-6">
               <div className="flex items-center gap-5">
                 <li>
                   <img

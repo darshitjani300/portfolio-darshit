@@ -32,9 +32,9 @@ const Contact = () => {
             />
             <div>
               <h1 className="font-bold text-[13px] text-[#2d2e32]">Mail</h1>
-              <p className="text-[12px] text-[#767676]">
+              {/* <p className="text-[12px] text-[#767676]">
                 darshitdeveloper@gmail.com
-              </p>
+              </p> */}
             </div>
           </div>
           <div></div>

@@ -9,13 +9,13 @@ import Projects from "./components/Projects";
 function App() {
   return (
     <>
-      <div className="overflow-hidden">
+      <div className="">
         <NavigationBar />
         <Hero />
         <About />
         <Projects />
         <Contact />
-        <Footer />0
+        <Footer />
       </div>
     </>
   );

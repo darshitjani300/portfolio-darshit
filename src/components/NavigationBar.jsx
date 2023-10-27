@@ -4,7 +4,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 const NavigationBar = () => {
   const [showNav, setShowNav] = useState(false);
   return (
-    <div className="shadow-sm w-full bg-white overflow-hidden flex justify-between items-center p-6 md:px-10 lg:px-14 xl:px-16">
+    <div className="shadow-md w-screen bg-white overflow-hidden fixed top-0 left-0 z-50 flex justify-between items-center p-6 md:px-10 lg:px-14 xl:px-16 mb-10">
       <h1 className="cursor-pointer font-bold text-[#2d2e32] text-[1.2rem] sm:text-[1.4rem] lg:text-[1.3rem]">
         Darshit.dev
       </h1>
