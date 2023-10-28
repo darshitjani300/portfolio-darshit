@@ -2,8 +2,8 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div className="container flex flex-col py-5 px-2">
-      <div className="flex flex-col justify-center items-center gap-3 text-center">
+    <div className="flex flex-col py-5 px-2 sm:px-12 xl:px-40 ">
+      <div className="flex flex-col sm:items-start justify-center items-center gap-3 text-center">
         <h1 className="text-[1rem] font-bold text-[#147EFB] leading-5">
           PORTFOLIO
         </h1>
