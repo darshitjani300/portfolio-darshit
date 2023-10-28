@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div className="bg-white w-full py-5 lg:px-5 lg:py-20 xl:px-40 px-5">
-      <div className="py-12 flex items-center flex-col lg:grid lg:grid-cols-2 lg:justify-center">
+      <div className="py-12 flex items-center flex-col lg:grid lg:grid-cols-2 lg:justify-between">
         <div className="relative sm:h-[350px] 2xl:justify-self-center sm:w-[420px] px-3">
           <img
             src="/images/main.png"
@@ -25,7 +25,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col 2xl:justify-self-start 2xl:px-20  items-center text-center lg:text-start gap-3 px-2 sm:px-24 lg:px-0">
+        <div className="flex flex-col 2xl:justify-self-start 2xl:px-20 items-center text-center lg:text-start gap-3 px-2 sm:px-24 lg:px-0">
           <h3 className="text-[1rem] sm:text-[1.1rem] lg:w-full lg:mt-0 font-bold text-blue-500 mt-10">
             ABOUT ME
           </h3>
