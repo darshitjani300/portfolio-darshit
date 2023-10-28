@@ -7,9 +7,9 @@ const Hero = () => {
     <section className="flex flex-col mt-20 lg:flex-row-reverse lg:items-start lg:justify-around lg:px-5 lg:py-20 xl:px-40 items-center justify-center text-center lg:text-start px-5 xl:mt-32">
       <div className="h-[200px] w-[200px] lg:h-[320px] lg:w-[320px] my-5">
         <img
-          src="images/photo.png"
-          className="h-full w-full rounded-[50%] object-cover"
-          alt=""
+          src="images/photo.jpg"
+          className="h-full w-full rounded-[50%] object-contain"
+          alt="photo"
         />
       </div>
       <div className="flex flex-col gap-7 mb-5 max-w-[400px] sm:max-w-[450px] lg:max-w-[550px] lg:p-5 justify-start items-center lg:items-start">
