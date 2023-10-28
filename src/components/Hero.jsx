@@ -23,14 +23,18 @@ const Hero = () => {
           </p>
         </div>
         <div className="flex items-center justify-center w-full lg:justify-start gap-6">
-          <PiLinkedinLogoBold
-            size="1.8rem"
-            className="hover:text-[#147efb]  ease-in-out cursor-pointer duration-[0.3s]"
-          />
-          <FiGithub
-            size="1.8rem"
-            className="hover:text-[#147efb] ease-in-out cursor-pointer duration-[0.3s]"
-          />
+          <a href="https://www.linkedin.com/in/darshit-jani/" target="_blank">
+            <PiLinkedinLogoBold
+              size="1.8rem"
+              className="hover:text-[#147efb]  ease-in-out cursor-pointer duration-[0.3s]"
+            />
+          </a>
+          <a href="https://github.com/darshitjani300" target="_blank">
+            <FiGithub
+              size="1.8rem"
+              className="hover:text-[#147efb] ease-in-out cursor-pointer duration-[0.3s]"
+            />
+          </a>
         </div>
         <div className="flex flex-col justify-center items-center lg:flex-row  gap-7 mt-10">
           <h1 className="text-[#2d2e32] font-semibold text-[1rem] border-b-[2px] lg:border-b-0 lg:border-r-[2px] border-black pb-2">
