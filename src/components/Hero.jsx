@@ -12,7 +12,7 @@ const Hero = () => {
           alt=""
         />
       </div>
-      <div className="flex flex-col gap-7 mb-5 max-w-[400px] sm:max-w-[450px] lg:max-w-[550px] lg:p-5 justify-start items-start">
+      <div className="flex flex-col gap-7 mb-5 max-w-[400px] sm:max-w-[450px] lg:max-w-[550px] lg:p-5 justify-start items-center lg:items-start">
         <div className="flex flex-col gap-5">
           <h1 className="text-[#2d2e32] font-bold text-[2.5rem] lg:text-[3rem] xl:text-[3.4rem] leading-[1.2]">
             Front-End React Developer{" "}
@@ -32,12 +32,12 @@ const Hero = () => {
             className="hover:text-[#147efb] ease-in-out cursor-pointer duration-[0.3s]"
           />
         </div>
-        <div className="flex flex-col lg:flex-row items-center gap-7 mt-10">
+        <div className="flex flex-col justify-center items-center lg:flex-row  gap-7 mt-10">
           <h1 className="text-[#2d2e32] font-semibold text-[1rem] border-b-[2px] lg:border-b-0 lg:border-r-[2px] border-black pb-2">
             Tech Stack{" "}
           </h1>
-          <ul className="flex flex-col sm:flex-row items-center justify-center pb-5 gap-5">
-            <div className="flex items-center justify-center gap-6">
+          <ul className="flex flex-col items-center justify-center sm:flex-row pb-5 gap-5 w-full">
+            <div className="flex items-center justify-center gap-3">
               <div className="flex items-center gap-5">
                 <li>
                   <img
@@ -67,7 +67,7 @@ const Hero = () => {
                 </li>
               </div>
             </div>
-            <div className="flex items-center justify-center gap-6">
+            <div className="flex items-center justify-center gap-5">
               <li>
                 <img
                   src="https://skillicons.dev/icons?i=react"
