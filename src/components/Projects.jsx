@@ -10,6 +10,9 @@ const Projects = () => {
         <h2 className="text-[1.6rem] font-bold leading-9">
           Each project is a unique piece of development 🧩
         </h2>
+        <div className="px-10 md:px-0">
+          <h1 className="text-[1.5rem] font-semibold text-red-600">Projects will be deployed Soon.....</h1>
+        </div>
       </div>
     </div>
   );
