@@ -46,7 +46,7 @@ const Hero = () => {
                 <li>
                   <img
                     src="https://skillicons.dev/icons?i=html"
-                    className="h-[3rem] md:h-[3.2rem] cursor-pointer relative hover:bottom-2"
+                    className="h-[3rem] md:h-[3.2rem] cursor-pointer"
                   />
                 </li>
                 <li>
