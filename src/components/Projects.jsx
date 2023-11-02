@@ -15,10 +15,10 @@ const Projects = () => {
         <div className="px-3 md:px-0 mt-10">
           <div className="grid bg-white rounded-xl shadow-xl sm:gap-10 grid-rows-2 xl:grid-rows-1 grid-cols-1">
             <div className="flex flex-col lg:grid lg:grid-cols-2 lg:items-center gap-2 p-4 sm:p-10">
-              <div className="w-full 2xl:h-[500px]">
+              <div className="w-full">
                 <img
                   src="car-rental.png"
-                  className="rounded-xl shadow-lg h-full"
+                  className="rounded-xl shadow-lg"
                   alt="car-rental"
                 />
               </div>
@@ -60,10 +60,10 @@ const Projects = () => {
               </div>
             </div>
             <div className="flex flex-col lg:grid lg:grid-cols-2 items-center justify-center gap-2 p-4 sm:p-10">
-              <div className="w-full 2xl:h-[500px]">
+              <div className="w-full">
                 <img
                   src="gym-ecom.png"
-                  className="rounded-xl shadow-lg 2xl:h-full"
+                  className="rounded-xl shadow-lg"
                   alt="Gym-Ecomm"
                 />
               </div>
