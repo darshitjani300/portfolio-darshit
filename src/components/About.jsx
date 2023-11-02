@@ -6,19 +6,19 @@ const About = () => {
       <div className="py-12 flex items-center flex-col lg:grid lg:grid-cols-2 lg:justify-between">
         <div className="relative sm:h-[350px] 2xl:justify-self-center sm:w-[420px] px-3">
           <img
-            src="/images/main.png"
+            src="main.png"
             alt=""
             className="h-full w-full object-cover rounded-xl"
           />
           <div className="hidden sm:block absolute bottom-[-30px] right-[-55px]">
             <div className="hidden sm:block bg-white h-[130px] w-[130px] z-[40] relative ml-10 rounded-[50%]">
               <img
-                src="/images/outerimg.png"
+                src="circle.png"
                 alt=""
                 className="absolute h-[130px] left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]"
               />
               <img
-                src="/images/subimg.png"
+                src="circleinn.png"
                 alt=""
                 className="absolute h-[60px] left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]"
               />
