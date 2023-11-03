@@ -1,6 +1,7 @@
 import React from "react";
 import { PiLinkedinLogoBold } from "react-icons/pi";
 import { FiGithub } from "react-icons/fi";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
@@ -42,49 +43,74 @@ const Hero = () => {
             Tech Stack{" "}
           </h1>
           <ul className="flex flex-col items-center justify-center sm:flex-row pb-5 gap-5 w-full">
-            <div className="flex items-center justify-center gap-3">
+            <div className="flex items-center justify-center gap-5">
               <div className="flex items-center gap-5">
-                <li>
+                <motion.li
+                  whileHover={{ scale: 1.1, originX: 0 }}
+                  transition={{ type: "spring", stiffness: 300 }}
+                >
                   <img
                     src="https://skillicons.dev/icons?i=html"
+                    loading="lazy"
                     className="h-[3rem] md:h-[3.2rem] cursor-pointer"
                   />
-                </li>
-                <li>
+                </motion.li>
+                <motion.li
+                  whileHover={{ scale: 1.1, originX: 0 }}
+                  transition={{ type: "spring", stiffness: 300 }}
+                  className="relative"
+                >
                   <img
                     src="https://skillicons.dev/icons?i=css"
-                    className="h-[3rem] md:h-[3.2rem] cursor-pointer relative hover:bottom-2"
+                    loading="lazy"
+                    className="h-[3rem] md:h-[3.2rem] cursor-pointer"
                   />
-                </li>
+                </motion.li>
               </div>
               <div className="flex items-center gap-5">
-                <li>
+                <motion.li
+                  whileHover={{ scale: 1.1, originX: 0 }}
+                  transition={{ type: "spring", stiffness: 300 }}
+                >
                   <img
                     src="https://skillicons.dev/icons?i=js"
-                    className="h-[3rem] md:h-[3.2rem] cursor-pointer relative hover:bottom-2"
+                    loading="lazy"
+                    className="h-[3rem] md:h-[3.2rem] cursor-pointer"
                   />
-                </li>
-                <li>
+                </motion.li>
+                <motion.li
+                  whileHover={{ scale: 1.1, originX: 0 }}
+                  transition={{ type: "spring", stiffness: 300 }}
+                >
                   <img
                     src="https://skillicons.dev/icons?i=tailwind"
-                    className="h-[3rem] md:h-[3.2rem] cursor-pointer relative hover:bottom-2"
+                    loading="lazy"
+                    className="h-[3rem] md:h-[3.2rem] cursor-pointer"
                   />
-                </li>
+                </motion.li>
               </div>
             </div>
             <div className="flex items-center justify-center gap-5">
-              <li>
+              <motion.li
+                whileHover={{ scale: 1.1, originX: 0 }}
+                transition={{ type: "spring", stiffness: 300 }}
+              >
                 <img
                   src="https://skillicons.dev/icons?i=react"
-                  className="h-[3rem] md:h-[3.2rem] cursor-pointer relative hover:bottom-2"
+                  loading="lazy"
+                  className="h-[3rem] md:h-[3.2rem] cursor-pointe"
                 />
-              </li>
-              <li>
+              </motion.li>
+              <motion.li
+                whileHover={{ scale: 1.1, originX: 0 }}
+                transition={{ type: "spring", stiffness: 300 }}
+              >
                 <img
                   src="https://skillicons.dev/icons?i=redux"
-                  className="h-[3rem] md:h-[3.2rem] cursor-pointer relative hover:bottom-2"
+                  className="h-[3rem] md:h-[3.2rem] cursor-pointer"
+                  loading="lazy"
                 />
-              </li>
+              </motion.li>
             </div>
           </ul>
         </div>

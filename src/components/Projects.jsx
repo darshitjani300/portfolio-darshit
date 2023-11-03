@@ -1,6 +1,7 @@
 import React from "react";
 import { IoMdOpen } from "react-icons/io";
 import { FiGithub } from "react-icons/fi";
+import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
@@ -15,13 +16,18 @@ const Projects = () => {
         <div className="px-3 md:px-0 my-10">
           <div className="grid sm:gap-20 grid-rows-2 xl:grid-rows-1 grid-cols-1">
             <div className="flex bg-white shadow-md rounded-xl flex-col lg:grid lg:grid-cols-2 lg:items-center gap-2 p-4 sm:p-10">
-              <div className="w-full">
+              <motion.a
+                whileHover={{ scale: 0.9 }}
+                href="https://rental-car300.netlify.app"
+                target="_blank"
+                className="w-full"
+              >
                 <img
                   src="car-rental.png"
                   className="rounded-xl shadow-lg"
                   alt="car-rental"
                 />
-              </div>
+              </motion.a>
               <div className="flex flex-col text-center lg:px-10 items-center gap-5 pt-10 lg:pt-0">
                 <h1 className="font-bold text-[1.1rem]">
                   CAR RENTAL{" "}
@@ -36,37 +42,46 @@ const Projects = () => {
                   cars.
                 </p>
                 <div className="flex items-center justify-center gap-5">
-                  <button className=" p-2 font-bold shadow-md">React</button>
-                  <button className=" p-2 font-bold shadow-md">TAILWIND</button>
+                  <button className="cursor-text p-2 font-bold shadow-md">
+                    React
+                  </button>
+                  <button className="cursor-text p-2 font-bold shadow-md">
+                    TAILWIND
+                  </button>
                 </div>
-                <div className="flex items-center justify-center gap-5">
+                <div className="flex items-center justify-center gap-5 ">
                   <a
                     href="https://github.com/darshitjani300/rental-car.git"
                     target="_blank"
-                    className="flex items-center gap-2"
+                    className="flex items-center font-semibold gap-2 hover:text-[#147efb] ease-in-out cursor-pointer duration-[0.3s]"
                   >
                     Code
-                    <FiGithub className=" text-[1.6rem] ease-in-out cursor-pointer duration-[0.3s] hover:scale-50" />
+                    <FiGithub className="text-[1.6rem]" />
                   </a>
                   <a
                     href="https://rental-car300.netlify.app"
                     target="_blank"
-                    className="flex items-center gap-2"
+                    className="flex items-center gap-2 font-semibold hover:text-[#147efb]  ease-in-out cursor-pointer duration-[0.3s]"
                   >
                     Live Demo
-                    <IoMdOpen className="text-[1.6rem] ease-in-out cursor-pointer duration-[0.3s] hover:scale-50" />
+                    <IoMdOpen className="text-[1.6rem]" />
                   </a>
                 </div>
               </div>
             </div>
-            <div className="flex bg-white shadow-md rounded-xl flex-col lg:grid lg:grid-cols-2 items-center justify-center gap-2 p-4 sm:p-10">
-              <div className="w-full">
+            <div className="flex bg-white shadow-md rounded-xl flex-col lg:grid lg:grid-cols-2 items-center gap-2 p-4 sm:p-10">
+              <motion.a
+                whileHover={{ scale: 0.9 }}
+                href="https://gymnite.netlify.app/"
+                target="_blank"
+                className="w-full"
+              >
                 <img
                   src="gym-ecom.png"
                   className="rounded-xl shadow-lg"
                   alt="Gym-Ecomm"
                 />
-              </div>
+              </motion.a>
               <div className="flex flex-col lg:w-[80%] lg:mx-auto text-center items-center gap-5 pt-10 lg:pt-0">
                 <h1 className="font-bold text-[1.1rem]">
                   GYMNITE{" "}
@@ -82,25 +97,29 @@ const Projects = () => {
                   the products they need.
                 </p>
                 <div className="flex items-center justify-center gap-5">
-                  <button className=" p-2 font-bold shadow-md">React</button>
-                  <button className=" p-2 font-bold shadow-md">TAILWIND</button>
+                  <button className="cursor-text p-2 font-bold shadow-md">
+                    React
+                  </button>
+                  <button className="cursor-text p-2 font-bold shadow-md">
+                    TAILWIND
+                  </button>
                 </div>
                 <div className="flex items-center justify-center gap-5">
                   <a
                     href="https://github.com/darshitjani300/ecom.git"
                     target="_blank"
-                    className="flex items-center gap-2"
+                    className="flex items-center font-semibold gap-2 hover:text-[#147efb]  ease-in-out cursor-pointer duration-[0.3s]"
                   >
                     Code
-                    <FiGithub className=" text-[1.6rem] ease-in-out cursor-pointer duration-[0.3s] hover:scale-50" />
+                    <FiGithub className=" text-[1.6rem]" />
                   </a>
                   <a
                     href="https://gymnite.netlify.app/"
                     target="_blank"
-                    className="flex items-center gap-2"
+                    className="flex items-center font-semibold gap-2 hover:text-[#147efb]  ease-in-out cursor-pointer duration-[0.3s]"
                   >
                     Live Demo
-                    <IoMdOpen className="text-[1.6rem] ease-in-out cursor-pointer duration-[0.3s] hover:scale-50" />
+                    <IoMdOpen className="text-[1.6rem]" />
                   </a>
                 </div>
               </div>
