@@ -1,6 +1,7 @@
 import React from "react";
 import { PiLinkedinLogoBold } from "react-icons/pi";
 import { FiGithub } from "react-icons/fi";
+import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
@@ -9,13 +10,21 @@ const Footer = () => {
         <h1 className="text-white font-bold tracking-wide text-[1.1rem]">
           Copyright © 2023. All rights are reserved
         </h1>
-        <div className="flex gap-4 py-3">
-          <a href="https://www.linkedin.com/in/darshit-jani/" target="_blank">
-            <PiLinkedinLogoBold className=" text-white text-[1.6rem] ease-in-out cursor-pointer duration-[0.3s] hover:scale-50" />
-          </a>
-          <a href="https://github.com/darshitjani300" target="_blank">
-            <FiGithub className="hover:scale-50 text-[1.6rem] text-white ease-in-out cursor-pointer duration-[0.3s]" />
-          </a>
+        <div className="flex gap-6 py-3">
+          <motion.a
+            whileHover={{ scale: 1.2 }}
+            href="https://www.linkedin.com/in/darshit-jani/"
+            target="_blank"
+          >
+            <PiLinkedinLogoBold className=" text-white text-[1.6rem]" />
+          </motion.a>
+          <motion.a
+            whileHover={{ scale: 1.2 }}
+            href="https://github.com/darshitjani300"
+            target="_blank"
+          >
+            <FiGithub className="text-[1.6rem] text-white" />
+          </motion.a>
         </div>
       </div>
     </div>

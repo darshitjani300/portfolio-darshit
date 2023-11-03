@@ -19,7 +19,9 @@ const Contact = () => {
           />
           <div className="flex flex-col gap-1">
             <h1 className="font-bold text-[1.1rem]">Location</h1>
-            <p className="text-[1rem] text-[#767676]">Ahmedabad, Gujarat</p>
+            <p className="text-[1rem] cursor-pointer text-[#767676] hover:text-blue-500 duration-150 ease-in">
+              Ahmedabad, Gujarat
+            </p>
           </div>
         </div>
         <div className="flex flex-col md:flex-row gap-3 items-center">
