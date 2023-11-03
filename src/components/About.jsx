@@ -8,17 +8,20 @@ const About = () => {
           <img
             src="main.png"
             alt=""
+            loading="lazy"
             className="h-full w-full object-cover rounded-xl"
           />
           <div className="hidden sm:block absolute bottom-[-30px] right-[-55px]">
             <div className="hidden sm:block bg-white h-[130px] w-[130px] z-[40] relative ml-10 rounded-[50%]">
               <img
                 src="circle.png"
+                loading="lazy"
                 alt=""
                 className="absolute h-[130px] left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]"
               />
               <img
                 src="circleinn.png"
+                loading="lazy"
                 alt=""
                 className="absolute h-[60px] left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]"
               />

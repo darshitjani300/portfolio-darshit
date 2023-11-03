@@ -10,6 +10,7 @@ const Hero = () => {
           src="photo.jpg"
           className="h-full w-full rounded-[50%] border-[2px] border-black object-cover"
           alt="photo"
+          loading="lazy"
         />
       </div>
       <div className="flex flex-col gap-7 mb-5 max-w-[400px] sm:max-w-[450px] lg:max-w-[550px] lg:p-5 justify-start items-center lg:items-start">

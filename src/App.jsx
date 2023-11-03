@@ -9,17 +9,14 @@ import Projects from "./components/Projects";
 function App() {
   return (
     <>
-      <div className="">
-        <NavigationBar />
-        <Hero />
-        <About />
-        <Projects />
-        <Contact />
-        <Footer />
-      </div>
+      <NavigationBar />
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
     </>
   );
 }
 
 export default App;
-
